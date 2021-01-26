@@ -1,0 +1,32 @@
+{
+  "name": "empyrean-static-sass-mockup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "breakpoint-sass": "^2.7.1",
+    "compass": "^0.1.1",
+    "css": "^3.0.0",
+    "reset-css": "^5.0.1",
+    "swiper": "^6.4.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.5"
+  }
+}

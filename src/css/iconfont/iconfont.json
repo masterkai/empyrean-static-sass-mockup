@@ -1,0 +1,37 @@
+{
+  "id": "2132114",
+  "name": "Empyrean",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "official site icon",
+  "glyphs": [
+    {
+      "icon_id": "19637753",
+      "name": "_bars-light",
+      "font_class": "_bars-light",
+      "unicode": "e6dc",
+      "unicode_decimal": 59100
+    },
+    {
+      "icon_id": "17689017",
+      "name": "_times-light",
+      "font_class": "_times-light",
+      "unicode": "e6cc",
+      "unicode_decimal": 59084
+    },
+    {
+      "icon_id": "17687464",
+      "name": "_user-light",
+      "font_class": "_user-light",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "17685311",
+      "name": "_search-light",
+      "font_class": "_search-light",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    }
+  ]
+}

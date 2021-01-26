@@ -1,0 +1,181 @@
+@import '~reset-css';
+@import "~breakpoint-sass";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "base/setting";
+
+
+.logo {
+  margin-left: 12px;
+  height: 30px;
+  width: auto;
+}
+
+.nav-menu {
+  @include breakpoint($ipad-pro) {
+    display: none;
+  }
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  li {
+    cursor: pointer;
+    padding: 8px 18px;
+    white-space: nowrap;
+    font-size: .9rem;
+  }
+}
+
+.search {
+  span {
+    position: absolute;
+    right: 20px;
+  }
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 200px;
+
+  input {
+    border-radius: 50px;
+  }
+}
+
+.iconfont {
+  cursor: pointer;
+  font-size: 1.375rem;
+}
+
+.sideMenuButton {
+  display: none;
+  @include breakpoint($ipad-pro) {
+    display: block;
+    margin-right: 0;
+  }
+  margin-right: 20px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+
+.EmpyButton {
+  &:hover {
+    background-color: rgba(0, 0, 0, .04);
+  }
+
+  &:active {
+    border-color: unset;
+  }
+
+  display: flex;
+  width: 40px;
+  height: 40px;
+  user-select: none;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  outline: 0;
+  padding: 12px;
+  border-style: unset;
+  background-color: unset;
+  border-color: unset;
+  border-radius: 50%;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2.125rem;
+}
+
+.imgButton {
+  &--xs {
+    height: 115px;
+  }
+  &:hover {
+    img {
+      transform: scale(.9);
+    }
+    .subject {
+      bottom:100px;
+    }
+    background-size: 200%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.35);
+  }
+
+  .subject {
+    position: absolute;
+    bottom: -100px;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.65);
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  img {
+    position: absolute;
+    transition: all .5s ease;
+  }
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: all .5s ease;
+  font-size: 1.45rem;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 20px;
+  border-color: black;
+  width: 100%;
+  height: 450px;
+}
+
+.EmpyContainer {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.EmpyGrid {
+  &__item {
+    flex: 0 1 25%;
+    padding: 12px
+  }
+
+  display: flex;
+  width: calc(100% + 24px);
+  margin: -12px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.EmpyTabs-flexContainer {
+  text-align: center;
+  .EmpyTab {
+    &.active {
+      border-bottom: 2px solid $primary;
+    }
+    width: 150px;
+    outline: 0;
+    border-style: unset;
+    background-color: unset;
+    border-color: unset;
+  }
+}
+.EmpyPanels-flexContainer {
+  .EmpyPanel {
+    &:first-child {
+      display: block;
+    }
+    display: none;
+  }
+}
