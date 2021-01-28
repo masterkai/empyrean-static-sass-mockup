@@ -1,0 +1,8 @@
+.logo {
+  @include breakpoint($iphone) {
+    height: 25px;
+  }
+  margin-left: 12px;
+  height: 30px;
+  width: auto;
+}

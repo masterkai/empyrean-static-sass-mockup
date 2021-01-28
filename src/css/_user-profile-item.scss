@@ -1,0 +1,32 @@
+$avatarSize:50px;
+.user-profile-item {
+  padding: 0.25rem 1rem .75rem;
+  margin-bottom: .75rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid $underLine;
+
+  .avatar {
+    border-radius: 50px;
+    margin-right: 12px;
+    background-position: center;
+    background-size: cover;
+    width: $avatarSize;
+    height: $avatarSize;
+  }
+
+  .iconfont {
+    margin-right: 12px;
+  }
+
+  .user-profile {
+    .name {
+      font-weight: 400;
+    }
+
+    .email {
+      font-size: 0.75rem;
+      font-weight: 300;
+    }
+  }
+}

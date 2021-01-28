@@ -1,0 +1,71 @@
+.footer {
+  background-color: $footerBG;
+  padding: 24px;
+  .footerTop {
+    @include breakpoint($ipad){
+      flex-wrap: wrap;
+    }
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $underLine;
+    padding-bottom: 24px;
+    .footerGrid-3 {
+      flex: 0 1 25%;
+      ul {
+        padding-left: 0;
+        li {
+          color: rgba(0, 0, 0, 0.54);
+          font-size: .9rem;
+          line-height: 1.875;
+          font-weight: 300;
+        }
+      }
+    }
+    .footerGrid-7 {
+      @include breakpoint($ipad){
+        flex: 0 1 100%;
+      }
+      flex: 0 1 75%;
+      display: flex;
+      justify-content: space-between;
+      .Empy-item {
+        @include breakpoint($ipad){
+          flex: 0 1 calc(16.66666666666667%);
+        }
+        flex: 0 1 calc(16.66666666666667% - 50px);
+        .itemName {
+          @include breakpoint($iphone){
+            font-size: 1rem;
+          }
+          font-size: 1.15rem;
+          padding-bottom: 8px;
+          border-bottom: 1px solid $underLine;
+        }
+        .subItem {
+          font-size: .95rem;
+          padding: 8px 0 4px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  .footerBottom {
+    padding-top: 24px;
+    .socialContainer {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 260px;
+      margin: 0 auto;
+    }
+    .copyright {
+      @include breakpoint($iphone){
+        font-size: .8rem;
+      }
+      text-align: center;
+      margin-top: 12px;
+      font-size: .95rem;
+      font-weight: 300;
+    }
+  }
+}

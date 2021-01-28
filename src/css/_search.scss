@@ -1,0 +1,23 @@
+.search {
+  &-mobile{
+    display: none;
+    @include breakpoint($iphone){
+      display: flex;
+    }
+  }
+  span {
+    position: absolute;
+    right: 20px;
+  }
+  @include breakpoint($iphone){
+    display: none;
+  }
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 200px;
+
+  input {
+    border-radius: 50px;
+  }
+}

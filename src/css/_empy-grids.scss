@@ -1,0 +1,42 @@
+.EmpyContainer {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.EmpyGrid {
+  &__column-3 {
+    @include breakpoint($iphone) {
+      flex: 1 1 50%;
+    }
+    flex: 0 1 25%;
+    padding: 12px
+  }
+
+  &__column-4 {
+    @include breakpoint($iphone) {
+      flex: 0 1 100%;
+    }
+    flex: 0 1 33.33%;
+    padding: 12px
+  }
+
+  &__column-6 {
+    @include breakpoint($iphone) {
+      flex: 1 1 100%;
+    }
+    flex: 0 1 50%;
+    padding: 12px
+  }
+
+  &__column--md12 {
+    @include breakpoint($ipad) {
+      flex: 1 1 100%;
+    }
+  }
+
+  display: flex;
+  width: calc(100% + 24px);
+  margin: -12px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}

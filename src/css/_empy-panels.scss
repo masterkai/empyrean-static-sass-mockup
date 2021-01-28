@@ -1,0 +1,9 @@
+.EmpyPanels-flexContainer {
+  .EmpyPanel {
+    &:first-child {
+      display: block;
+    }
+
+    display: none;
+  }
+}

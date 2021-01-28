@@ -1,0 +1,17 @@
+.nav-menu {
+  @include breakpoint($ipad-pro) {
+    display: none;
+  }
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  li {
+    cursor: pointer;
+    padding: 8px 18px;
+    white-space: nowrap;
+    font-size: .9rem;
+  }
+}

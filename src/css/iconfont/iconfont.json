@@ -6,6 +6,69 @@
   "description": "official site icon",
   "glyphs": [
     {
+      "icon_id": "19675070",
+      "name": "_chevron-up-light",
+      "font_class": "_chevron-up-light",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "19672792",
+      "name": "_youtube-brands",
+      "font_class": "_youtube-brands",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "19672793",
+      "name": "_pinterest-brands",
+      "font_class": "_pinterest-brands",
+      "unicode": "e6e3",
+      "unicode_decimal": 59107
+    },
+    {
+      "icon_id": "19672794",
+      "name": "_facebook-square-brands",
+      "font_class": "_facebook-square-brands",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "19672795",
+      "name": "_instagram-brands",
+      "font_class": "_instagram-brands",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    },
+    {
+      "icon_id": "19669834",
+      "name": "_envelope-light",
+      "font_class": "_envelope-light",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "19667146",
+      "name": "_line-messenger",
+      "font_class": "_line-messenger",
+      "unicode": "e6e0",
+      "unicode_decimal": 59104
+    },
+    {
+      "icon_id": "19667052",
+      "name": "_facebook-brands",
+      "font_class": "_facebook-brands",
+      "unicode": "e6dd",
+      "unicode_decimal": 59101
+    },
+    {
+      "icon_id": "19667054",
+      "name": "_twitter-brands",
+      "font_class": "_twitter-brands",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
       "icon_id": "19637753",
       "name": "_bars-light",
       "font_class": "_bars-light",

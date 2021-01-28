@@ -1,9 +1,37 @@
-$ipad: max-width 768px;
-$ipad-pro: max-width 965px;
-$primary-color: white;
-$bg: black;
-$primary: #B60033;
-
 body {
   font-family: "Noto Sans TC", "Roboto", "Helvetica", "Arial", sans-serif;
 }
+.iconfont {
+  cursor: pointer;
+  font-size: 1.375rem;
+}
+
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+
+$ipad: max-width 768px;
+$ipad-pro: max-width 965px;
+$iphone: max-width 500px;
+
+$underLine: #aaaaaa;
+$primary: #B60033;
+$paper: #F5F5F5;
+$footerBG: #F4F4F4;
+
+
+
+$danger: #ff4136;
+
+$theme-colors: (
+        "primary": $primary,
+        "danger": $danger
+);
+// Create your own map
+$Empy-color: (
+        "custom-color": #900
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $Empy-color);

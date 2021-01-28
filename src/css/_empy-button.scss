@@ -1,0 +1,26 @@
+.EmpyButton {
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background-color: rgba(0, 0, 0, .04);
+  }
+
+  &:active {
+    border-color: unset;
+  }
+
+  display: flex;
+  width: 40px;
+  height: 40px;
+  user-select: none;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  outline: 0;
+  padding: 12px;
+  border-style: unset;
+  background-color: unset;
+  border-color: unset;
+  border-radius: 50%;
+}

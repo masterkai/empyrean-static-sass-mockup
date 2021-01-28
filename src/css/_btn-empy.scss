@@ -1,0 +1,31 @@
+.btn-empy {
+  &-link {
+    color: $primary;
+
+    &:hover {
+      color: $primary;
+      background-color: lighten($primary, 60%);
+    }
+  }
+
+  &--outline {
+    &:hover {
+      color: darken($primary, 5%);
+      background-color: opacify(rgba(#aa0808, 0.0375), 0.03);
+    }
+
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid $primary;
+    color: $primary;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: darken($primary, 8%);
+  }
+
+  color: white;
+  background-color: $primary;
+}

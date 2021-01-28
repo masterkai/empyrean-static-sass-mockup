@@ -1,0 +1,23 @@
+.EmpyTabs-flexContainer {
+  text-align: center;
+  @include breakpoint($iphone) {
+    padding: 12px;
+    display: flex;
+  }
+  .EmpyTab {
+    @include breakpoint($iphone) {
+      flex: 1 1 auto;
+    }
+
+    &.active {
+      border-bottom: 2px solid $primary;
+    }
+
+    margin-bottom: 24px;
+    width: 150px;
+    outline: 0;
+    border-style: unset;
+    background-color: unset;
+    border-color: unset;
+  }
+}
