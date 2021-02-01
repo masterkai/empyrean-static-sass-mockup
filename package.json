@@ -7,15 +7,16 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "clean": "rm dist/bundle.js",
+    "clean": "rm dist/index.js",
     "start": "parcel src/pages/*.html",
-    "build-prod": "parcel build src/pages/*.html"
+    "build-prod": "parcel build src/pages/*.html --no-minify"
   },
   "dependencies": {
     "bootstrap": "^5.0.0-beta1",
     "breakpoint-sass": "^2.7.1",
     "compass": "^0.1.1",
     "css": "^3.0.0",
+    "jquery": "^3.5.1",
     "reset-css": "^5.0.1",
     "swiper": "^6.4.8"
   },

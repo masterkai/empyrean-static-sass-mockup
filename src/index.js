@@ -6,11 +6,15 @@ import NewReleaseTabs from './components/tabs'
 import socialModal from './components/socialModal'
 import goTop from "./components/goTop";
 import userDropdown from "./components/userDropdown";
-
-
+import sideMenu from "./components/sideMenu";
+import nav from "./components/nav";
+import subscribeModal from './components/subscribeModal'
 
 NewProductInfoTabs('#NewProductInfo')
 NewReleaseTabs('#NewsRelease')
 socialModal()
 goTop()
-userDropdown()
+subscribeModal()
+userDropdown('UserDropdown')
+
+

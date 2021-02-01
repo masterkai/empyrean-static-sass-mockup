@@ -9,9 +9,73 @@
   padding: 0;
 
   li {
+    position: relative;
     cursor: pointer;
     padding: 8px 18px;
     white-space: nowrap;
     font-size: .9rem;
+
+    a {
+      text-decoration: none;
+      color: $color_deep-gray;
+    }
+  }
+
+  .nav-menu-1 {
+    left: -50%;
+    top: 30px;
+    width: 200px;
+    height: 600px;
+    padding: 12px 0;
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 0 0 3px rgba(0,0,0,.5);
+  }
+  .nav-menu-2 {
+    top: 0;
+    width: 200px;
+    height: 600px;
+    padding: 12px 0;
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 0 0 3px rgba(0,0,0,.5);
+  }
+  .nav-menu-3 {
+    top: 0;
+    width: 200px;
+    height: 600px;
+    padding: 12px 0;
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 0 0 3px rgba(0,0,0,.5);
+  }
+
+  .nav-menu-4 {
+    top: 0;
+    width: 200px;
+    height: 600px;
+    padding: 12px 0;
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 0 0 3px rgba(0,0,0,.5);
+  }
+
+  .dropdown-item {
+    .iconfont {
+      font-size: 10px;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
   }
 }

@@ -4,6 +4,7 @@
     <title>Empty project</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/iconfont.f3aaa006.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
         <div class="container-fluid d-flex justify-content-between">
             <div class="d-flex">
                 <div class="sideMenuButton">
-                    <button class="EmpyButton">
+                    <button class="EmpyButton" id="mobileSideMenu">
                         <span class="iconfont icon_bars-light"></span>
                     </button>
                 </div>
@@ -25,11 +26,231 @@
             </div>
 
             <ul class="nav-menu">
-                <li>品牌代理</li>
-                <li>支援服務</li>
-                <li>何處購買</li>
-                <li>愛克賽事</li>
-                <li>5hm1購物中心</li>
+                <li>
+                    <a class="menuToggle lv1Menu">品牌代理</a>
+                    <div class="nav-menu-1">
+                        <a href="" class="dropdown-item itemLevel1">
+                            <div>SUUNTO</div>
+                            <span class="iconfont icon_angle-right-light"></span>
+                        </a>
+                        <div class="nav-menu-2">
+                            <a href="" class="dropdown-item itemLevel2">
+                                <div>產品介紹</div>
+                                <span class="iconfont icon_angle-right-light"></span>
+                            </a>
+                            <div class="nav-menu-3">
+                                <a href="" class="dropdown-item itemLevel3">
+                                    <div>戶外探索與冒險</div>
+                                    <span class="iconfont icon_angle-right-light"></span>
+                                </a>
+                                <div class="nav-menu-4">
+                                    <a href="" class="dropdown-item">
+                                        <div>登山</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>攀岩</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>健行</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>徒步登山越野</div>
+                                    </a>
+                                </div>
+                                <a href="" class="dropdown-item itemLevel3">
+                                    <div>運動休閒與健走</div>
+                                    <span class="iconfont icon_angle-right-light"></span>
+                                </a>
+                                <div class="nav-menu-4">
+                                    <a href="" class="dropdown-item">
+                                        <div>自由潛水</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>水肺潛水</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>立式漿板</div>
+                                    </a>
+                                </div>
+                                <a href="" class="dropdown-item itemLevel3">
+                                    <div>運動鍛鍊與訓練</div>
+                                    <span class="iconfont icon_angle-right-light"></span>
+                                </a>
+                                <div class="nav-menu-4">
+                                    <a href="" class="dropdown-item">
+                                        <div>跑步</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>鐵人三項</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>自行車</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>越野跑</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>游泳</div>
+                                    </a>
+                                </div>
+                                <a href="" class="dropdown-item itemLevel3">
+                                    <div>體適能與健身</div>
+                                    <span class="iconfont icon_angle-right-light"></span>
+                                </a>
+                                <div class="nav-menu-4">
+                                    <a href="" class="dropdown-item">
+                                        <div>跑步機</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>飛輪</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>重量訓練</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>有氧韻律操</div>
+                                    </a>
+                                </div>
+                                <a href="" class="dropdown-item itemLevel3">
+                                    <div>都會生活與健康</div>
+                                    <span class="iconfont icon_angle-right-light"></span>
+                                </a>
+                                <div class="nav-menu-4">
+                                    <a href="" class="dropdown-item">
+                                        <div>瑜珈</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>壺鈴</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>帆船</div>
+                                    </a>
+                                    <a href="" class="dropdown-item">
+                                        <div>獨木舟</div>
+                                    </a>
+                                </div>
+                                <a href="" class="dropdown-item">
+                                    <div>所有運動</div>
+                                </a>
+                                <a href="" class="dropdown-item">
+                                    <div>配件</div>
+                                </a>
+
+                            </div>
+                            <a href="" class="dropdown-item">
+                                <div>品牌故事</div>
+                            </a>
+                            <a href="" class="dropdown-item">
+                                <div>使用小技巧</div>
+                            </a>
+                            <a href="" class="dropdown-item">
+                                <div>名人榜</div>
+                            </a>
+                            <a href="" class="dropdown-item">
+                                <div>冒險故事</div>
+                            </a>
+                            <a href="" class="dropdown-item">
+                                <div>運動知識</div>
+                            </a>
+                        </div>
+                        <a href="" class="dropdown-item itemLevel1">
+                            <div>Mio</div>
+                            <span class="iconfont icon_angle-right-light"></span>
+                        </a>
+                        <div class="nav-menu-2">
+                            <a href="" class="dropdown-item">
+                                <div>Mio child</div>
+
+                            </a>
+                            <a href="" class="dropdown-item">
+                                <div>Mio child</div>
+
+                            </a>
+                            <a href="" class="dropdown-item">
+                                <div>Mio child</div>
+
+                            </a>
+                        </div>
+                        <a href="" class="dropdown-item itemLevel1">
+                            <div>ORO</div>
+                            <span class="iconfont icon_angle-right-light"></span>
+                        </a>
+                        <div class="nav-menu-2">
+                            <a href="" class="dropdown-item">
+                                <div>ORO child</div>
+                            </a>
+                            <a href="" class="dropdown-item">
+                                <div>ORO child</div>
+                            </a>
+                            <a href="" class="dropdown-item">
+                                <div>ORO child</div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a class="menuToggle lv1Menu">支援服務</a>
+                    <div class="nav-menu-1">
+                        <a href="" class="dropdown-item">
+                            <div>會員中心</div>
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div>產品註冊</div>
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div>常見問題</div>
+                        </a>
+                        <div class="nav-menu-2">
+                            <a href="" class="dropdown-item">
+                                <div>Mio child</div>
+
+                            </a>
+                            <a href="" class="dropdown-item">
+                                <div>Mio child</div>
+
+                            </a>
+                            <a href="" class="dropdown-item">
+                                <div>Mio child</div>
+
+                            </a>
+                        </div>
+                        <a href="" class="dropdown-item itemLevel1">
+                            <div>產品支援</div>
+                            <span class="iconfont icon_angle-right-light"></span>
+                        </a>
+                        <div class="nav-menu-2">
+                            <a href="" class="dropdown-item">
+                                <div>SUUNTO</div>
+                            </a>
+                            <a href="" class="dropdown-item">
+                                <div>MIO</div>
+                            </a>
+                            <a href="" class="dropdown-item">
+                                <div>ORO</div>
+                            </a>
+                        </div>
+                        <a href="" class="dropdown-item">
+                            <div>維修申請</div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a class="menuToggle lv1Menu">何處購買</a>
+                    <div class="nav-menu-1">
+                        <a href="" class="dropdown-item">
+                            <div>一般通路</div>
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div>網際通路</div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a class="menuToggle lv1Menu">愛克賽事</a>
+                </li>
+                <li>
+                    <a class="menuToggle lv1Menu">5hm1購物中心</a>
+                </li>
             </ul>
             <div class="d-flex align-middle justify-content-between">
                 <div class="search">
@@ -201,8 +422,110 @@
                         </div>
                     </div>
                 </div>
-                <div class="EmpyPanel">***MIO***</div>
-                <div class="EmpyPanel">***ORO***</div>
+                <div class="EmpyPanel">
+                    <div class="EmpyContainer">
+                        <div class="EmpyGrid">
+                            <div class="EmpyGrid__column-3">
+                                <div class="EmpyGrid">
+                                    <div class="EmpyGrid__column-12">
+                                        <div class="paper">
+                                            <img class="img-fluid" src="/suunto3.48cfddb7.png" alt="suunto3">
+                                            <p>SUUNTO 3</p>
+
+                                            <button type="button" class="btn btn-empy">立即購買</button>
+                                        </div>
+                                    </div>
+                                    <div class="EmpyGrid__column-12">
+                                        <div class="paper">
+                                            <img class="img-fluid" src="/suunto3.48cfddb7.png" alt="suunto3">
+                                            <p>SUUNTO 3</p>
+
+                                            <button type="button" class="btn btn-empy">立即購買</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="EmpyGrid__column-6 EmpyGrid__column--md12">
+                                <div class="paper">
+                                    <img class="img-fluid" src="/suunto7.2cbfbdec.png" alt="suunto7">
+                                    <p>SUUNTO 7</p>
+                                    <p>運動與生活完美合一</p>
+                                    <button type="button" class="btn btn-empy">立即購買</button>
+                                </div>
+                            </div>
+                            <div class="EmpyGrid__column-3">
+                                <div class="EmpyGrid">
+                                    <div class="EmpyGrid__column-12">
+                                        <div class="paper">
+                                            <img class="img-fluid" src="/suunto3.48cfddb7.png" alt="suunto3">
+                                            <p>SUUNTO 3</p>
+
+                                            <button type="button" class="btn btn-empy">立即購買</button>
+                                        </div>
+                                    </div>
+                                    <div class="EmpyGrid__column-12">
+                                        <div class="paper">
+                                            <img class="img-fluid" src="/suunto3.48cfddb7.png" alt="suunto3">
+                                            <p>SUUNTO 3</p>
+
+                                            <button type="button" class="btn btn-empy">立即購買</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="EmpyPanel">
+                    <div class="EmpyContainer">
+                        <div class="EmpyGrid">
+                            <div class="EmpyGrid__column-6 EmpyGrid__column--md12">
+                                <div class="EmpyGrid">
+                                    <div class="EmpyGrid__column-6">
+                                        <div class="paper">
+                                            <img class="img-fluid" src="/suunto3.48cfddb7.png" alt="suunto3">
+                                            <p>SUUNTO 3</p>
+
+                                            <button type="button" class="btn btn-empy">立即購買</button>
+                                        </div>
+                                    </div>
+                                    <div class="EmpyGrid__column-6">
+                                        <div class="paper">
+                                            <img class="img-fluid" src="/suunto5.d61fd6ef.png" alt="suunto5">
+                                            <p>SUUNTO 5</p>
+
+                                            <button type="button" class="btn btn-empy">立即購買</button>
+                                        </div>
+                                    </div>
+                                    <div class="EmpyGrid__column-6">
+                                        <div class="paper">
+                                            <img class="img-fluid" src="/suunto9baro.23084c16.png" alt="suunto9baro">
+                                            <p>SUUNTO 9 baro</p>
+
+                                            <button type="button" class="btn btn-empy">立即購買</button>
+                                        </div>
+                                    </div>
+                                    <div class="EmpyGrid__column-6">
+                                        <div class="paper">
+                                            <img class="img-fluid" src="/SPARTAN.4ec85cda.png" alt="SPARTAN">
+                                            <p>SPARTAN</p>
+
+                                            <button type="button" class="btn btn-empy">立即購買</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="EmpyGrid__column-6 EmpyGrid__column--md12">
+                                <div class="paper">
+                                    <img class="img-fluid" src="/suunto7.2cbfbdec.png" alt="suunto7">
+                                    <p>SUUNTO 7</p>
+                                    <p>運動與生活完美合一</p>
+                                    <button type="button" class="btn btn-empy">立即購買</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="emptySpace"></div>
@@ -259,12 +582,12 @@
                 <div class="EmpyPanel">***ORO***</div>
             </div>
         </div>
-        <div class="emptySpace emptySpace--subscriber">
-            <button class="btn btn-empy--outline">
+    </div>
+    <div class="emptySpace emptySpace--subscriber">
+        <button class="btn btn-empy--outline">
                 <span class="iconfont icon_envelope-light" style="font-size:1.6rem;width: 35px;height:35px;line-height: 35px"></span>
-                <div style="padding: 10px;font-size: 1.25rem">訂閱電子報</div>
-            </button>
-        </div>
+            <div style="padding: 10px;font-size: 1.25rem">訂閱電子報</div>
+        </button>
     </div>
     <div class="footer">
         <div class="footerTop">
@@ -332,7 +655,120 @@
         </div>
     </a>
 </div>
+<div class="mobile-nav-menu subMenu ani">
+    <a class="navbar-brand" href="#">
+        <img class="logo" src="/empyrean-logo.f7576a8e.svg" alt="empyrean-site-logo">
+    </a>
+    <button class="navbutton linker" data-target="_self" type="button">
+        &nbsp;登入 / 註冊
+    </button>
 
+    <div class="clearfix"></div>
+    <ul class="mobile-nav-menu-ul">
+        <!--li click   addClass active  -->
+        <li class="mobile-nav-menu-li-title-1">品牌代理</li>
+        <ul class="mobile-nav-menu-ul-2 animated fadeIn">
+            <li class="mobile-nav-menu-li-title-2">SUUNTO</li>
+            <ul class="mobile-nav-menu-ul-3 animated fadeIn">
+                <li class="mobile-nav-menu-li-title-3"><a href="#">產品介紹</a></li>
+                <ul class="mobile-nav-menu-ul-4 animated fadeIn">
+                    <li class="mobile-nav-menu-li-title-4"><a href="#">戶外探索與冒險</a></li>
+                    <ul class="mobile-nav-menu-ul-5 animated fadeIn">
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">登山</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">健行</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">攀岩</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">徒步登山越野</a></li>
+                    </ul>
+                    <li class="mobile-nav-menu-li-title-4"><a href="#">運動休閒與健走</a></li>
+                    <ul class="mobile-nav-menu-ul-5 animated fadeIn">
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">自由潛水</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">水肺潛水</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">立式漿板</a></li>
+                    </ul>
+                    <li class="mobile-nav-menu-li-title-4"><a href="#">運動鍛鍊與訓練</a></li>
+                    <ul class="mobile-nav-menu-ul-5 animated fadeIn">
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">跑步</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">鐵人三項</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">自行車</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">越野跑</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">游泳</a></li>
+                    </ul>
+                    <li class="mobile-nav-menu-li-title-4"><a href="#">體適能與健身</a></li>
+                    <ul class="mobile-nav-menu-ul-5 animated fadeIn">
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">跑步機</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">飛輪</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">重量訓練</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">有氧韻律操</a></li>
+                    </ul>
+                    <li class="mobile-nav-menu-li-title-4"><a href="#">都會生活與健康</a></li>
+                    <ul class="mobile-nav-menu-ul-5 animated fadeIn">
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">瑜珈</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">壺鈴</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">帆船</a></li>
+                        <li class="mobile-nav-menu-li-title-5 contentNO"><a href="#">獨木舟</a></li>
+                    </ul>
+                    <li class="mobile-nav-menu-li-title-4 contentNO"><a href="#">所有運動</a></li>
+                    <li class="mobile-nav-menu-li-title-4 contentNO"><a href="#">配件</a></li>
+                </ul>
+                <li class="mobile-nav-menu-li-title-3 contentNO"><a href="#">品牌故事</a></li>
+                <li class="mobile-nav-menu-li-title-3 contentNO"><a href="#">使用小技巧</a></li>
+                <li class="mobile-nav-menu-li-title-3 contentNO"><a href="#">名人榜</a></li>
+                <li class="mobile-nav-menu-li-title-3 contentNO"><a href="#">冒險故事</a></li>
+                <li class="mobile-nav-menu-li-title-3 contentNO"><a href="#">運動知識</a></li>
+            </ul>
+            <li class="mobile-nav-menu-li-title-2-link contentNO"><a href="#">MIO</a></li>
+            <li class="mobile-nav-menu-li-title-2-link contentNO"><a href="#">ORO</a></li>
+        </ul>
+
+        <li class="mobile-nav-menu-li-title-1">支援服務</li>
+        <ul class="mobile-nav-menu-ul-2 animated fadeIn">
+            <li class="mobile-nav-menu-li-title-2-link contentNO"><a href="#">會員中心</a></li>
+            <li class="mobile-nav-menu-li-title-2-link contentNO"><a href="#">產品註冊</a></li>
+            <li class="mobile-nav-menu-li-title-2-link contentNO"><a href="#">常見問題</a></li>
+            <li class="mobile-nav-menu-li-title-2"><a href="#">產品支援</a></li>
+            <ul class="mobile-nav-menu-ul-3 animated fadeIn">
+                <li class="mobile-nav-menu-li-title-3 contentNO"><a href="#">SUUNTO</a></li>
+                <li class="mobile-nav-menu-li-title-3 contentNO"><a href="#">MIO</a></li>
+                <li class="mobile-nav-menu-li-title-3 contentNO"><a href="#">ORO</a></li>
+            </ul>
+            <li class="mobile-nav-menu-li-title-2-link contentNO"><a href="#">維修申請</a></li>
+        </ul>
+
+        <li class="mobile-nav-menu-li-title-1">何處購買</li>
+        <ul class="mobile-nav-menu-ul-2 animated fadeIn">
+            <li class="mobile-nav-menu-li-title-2-link contentNO"><a href="#">一般通路</a></li>
+            <li class="mobile-nav-menu-li-title-2-link contentNO"><a href="#">網際通路</a></li>
+        </ul>
+
+        <li class="mobile-nav-menu-li-title-1 contentNO">愛克賽事</li>
+
+        <li class="mobile-nav-menu-li-title-1 contentNO">5hm1購物中心</li>
+
+
+        <div class="clearfix"></div>
+    </ul>
+</div>
+<div class="contentsMask">
+    <div class="side-menu-close"><span class="iconfont icon_times-light"></span></div>
+</div>
+
+<div class="Empy-mask" id="subscriber">
+    <div class="Empy-modal">
+        <div class="Empy-modal-body">
+            <div class="subscriber">
+                <label for="exampleFormControlInput1" class="form-label">您的電子郵件信箱</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    請留下正確郵件地址，謝謝!!
+                </div>
+            </div>
+            <div style="padding: 24px 0 0">
+                <button class="btn btn-empy-link cancelSubscribe">取消</button>
+                <button class="btn btn-empy-link subscribeButton">訂閱</button>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="Empy-mask" id="socialShareModal">
     <div class="Empy-modal Empy-modal--news-share">
         <div class="Empy-modal-header">
@@ -343,7 +779,8 @@
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <div class="newsImage" style="background-image: url(/BlackFriday__500x330.12bee302.png)"></div>
+                        <div class="newsImage" style="background-image: url(/BlackFriday__500x330.12bee302.png)">
+                        </div>
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">

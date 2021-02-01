@@ -6,6 +6,13 @@
   "description": "official site icon",
   "glyphs": [
     {
+      "icon_id": "19709894",
+      "name": "_angle-right-light",
+      "font_class": "_angle-right-light",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
       "icon_id": "19675070",
       "name": "_chevron-up-light",
       "font_class": "_chevron-up-light",
